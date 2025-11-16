@@ -1,4 +1,4 @@
-# 📘 Loan Default Risk Prediction Using Optimized Logistic Regression
+# Loan Default Risk Prediction Using Optimized Logistic Regression
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
 ![Colab](https://img.shields.io/badge/Google_Colab-Run_in_Colab-orange?logo=googlecolab&logoColor=white)
@@ -8,14 +8,14 @@ A complete **end-to-end machine learning project** to predict high-risk borrower
 
 ---
 
-## 🔹 Project Overview
+## Project Overview
 This project builds a **statistically grounded, machine-learning-driven system** to predict loan defaults. Using **Logistic Regression**, **Recursive Feature Elimination (RFE)**, and **SMOTE** for class balancing, the model identifies high-risk borrowers while remaining **interpretable for audits and compliance**.  
 
 This mirrors **real-world workflows** used by banks and fintech companies.
 
 ---
 
-## 🔹 Business Problem
+## Business Problem
 Loan defaults can lead to:  
 - Revenue loss  
 - Increased financial risk  
@@ -31,7 +31,7 @@ Loan defaults can lead to:
 
 ---
 
-## 🔹 Objectives
+## Objectives
 - Predict probability of default using **Logistic Regression** (interpretable)  
 - Handle severe class imbalance with **SMOTE**  
 - Optimize features via **RFE** for predictive power and stability  
@@ -40,7 +40,7 @@ Loan defaults can lead to:
 
 ---
 
-## 🔹 Dataset
+## Dataset
 
 **Name:** L & T Vehicle Loan Default Prediction  
 **Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction)  
@@ -60,7 +60,7 @@ Loan defaults can lead to:
 
 ## Project Pipeline
 
-### 1️⃣ Data Preprocessing
+### Data Preprocessing
 - **Steps:**
   - Handled missing values
   - Encoded categorical variables
@@ -81,7 +81,7 @@ X_test_scaled = scaler.transform(X_test)
 ```
 Output: Cleaned dataset ready for modeling.
 
-### 2️⃣ Handling Class Imbalance — SMOTE
+### Handling Class Imbalance — SMOTE
 
 - **Steps:**
   - Applied SMOTE to oversample minority default cases
@@ -97,7 +97,7 @@ smote = SMOTE(random_state=42)
 X_res, y_res = smote.fit_resample(X_train_scaled, y_train)
 ```
 
-### 3️⃣ Feature Selection — RFE
+### Feature Selection — RFE
 
 - **Steps:**
   - Used Recursive Feature Elimination (RFE) to select the most predictive features
@@ -116,7 +116,7 @@ selector = RFE(lr, n_features_to_select=10)
 X_selected = selector.fit_transform(X_res, y_res)
 ```
 
-### 4️⃣ Model Building & Validation
+### Model Building & Validation
 
 - **Steps:**
   - Built Logistic Regression on the balanced dataset
