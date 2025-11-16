@@ -1,5 +1,11 @@
 # Fuelling the Future: Strategic Insights and Forecasts for Australia's Petroleum Export Landscape
 
+![Project](https://img.shields.io/badge/Project-Visual_Analytics-blue)
+![Excel](https://img.shields.io/badge/Excel-Data_Processing-green?logo=microsoft-excel&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboarding-orange?logo=tableau&logoColor=white)
+![Forecasting](https://img.shields.io/badge/Forecasting-Predictive_Insights-red)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 **Author:** Chirayu Dudhade  
  **Course:** 32146 - Data Visualisation and Visual Analytics  
 **Project Type:** Visual Analytics & Forecasting  
