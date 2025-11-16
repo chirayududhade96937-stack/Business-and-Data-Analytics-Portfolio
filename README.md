@@ -1,2 +1,2 @@
 # Business-and-Data-Analytics-Portfolio
-Portfolio showcasing data analytics and business analytics projects – SQL, Python, Tableau, Excel.
+Portfolio showcasing data analytics and business analytics projects – Python, Tableau, Power BI, Excel.
