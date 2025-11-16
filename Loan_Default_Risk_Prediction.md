@@ -152,9 +152,11 @@ print(result.summary())
 > Biased toward non-default → not usable in lending.
 
 **Confusion Matrix:** 
+
 <img width="940" height="627" alt="image" src="https://github.com/user-attachments/assets/8e25578d-2c6f-4830-92eb-2f555beb52cc" />
 
 **ROC Curve:** 
+
 <img width="879" height="709" alt="image" src="https://github.com/user-attachments/assets/2ea2d4c7-cd8f-42e6-a56f-9d1c7bda6009" />
 
 ### Optimized Logistic Regression (After SMOTE + RFE)
@@ -166,6 +168,7 @@ print(result.summary())
 > Optimized model effectively detects high-risk borrowers.
 
 **Model Comparison Visualization:**  
+
 <img width="940" height="563" alt="image" src="https://github.com/user-attachments/assets/ce09a2dd-2248-41a6-8e5e-78e7ffcc7d20" />
 
 **Key predictors:**  
