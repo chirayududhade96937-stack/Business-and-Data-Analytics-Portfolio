@@ -233,6 +233,7 @@ This project demonstrates:
 
 ## Project Structure
 
+``` text
 ├── data/
 │   ├── raw/
 │   │   └── train.csv
@@ -254,3 +255,4 @@ This project demonstrates:
 ├── README.md
 ├── .gitignore
 ├── requirements.txt
+```
