@@ -214,3 +214,82 @@ Only 1 out of 4 applications are approved, despite the average applicant showing
 
 **Outcome:** The dataset is now feature-rich, clean, and structured, serving as a strong foundation for creating advanced DAX measures and interactive dashboards. This process emphasized the importance of **data validation, feature engineering, and troubleshooting real-world dataset challenges**, key skills for effective business intelligence analysis.
 
+# Executive Summary — Portfolio Performance & Trends
+
+This page provides a high-level view of the loan portfolio, focusing on performance, trends, and regional variations. Each visual delivers specific insights to support strategic decision-making.
+
+<img width="1311" height="731" alt="image" src="https://github.com/user-attachments/assets/0029aaa9-2904-43d0-9ad4-eb862bf8bd11" />
+
+## KPI Cards — Core Portfolio Metrics
+
+**Data Shown:**
+
+- **Total Loans:** 148,670  
+- **Approval Rate:** 24.64%  
+- **Average Loan Amount:** 331,117.74 AUD  
+- **Average Credit Score:** 699.79  
+- **Average LTV:** 65.36%  
+
+**Outcome & Insights:**  
+The KPI cards summarize the most critical metrics for the portfolio. The total loans show the scale of operations, while the approval rate highlights that only about 1 in 4 applications is approved, indicating strict lending criteria. The average loan amount shows the typical financial exposure per borrower, and the credit score and LTV indicate generally low- to moderate-risk applicants. These KPIs provide an at-a-glance overview for executives to quickly assess portfolio health.
+
+---
+
+## Line Chart — Approval Rate by Region
+
+**Data Shown:**
+
+- North-East: 30.45%  
+- Central: 27.54%  
+- South: 26.63%  
+- North: 22.51%  
+
+**Outcome & Insights:**  
+The line chart reveals regional differences in approval rates. North-East has the highest approval rate, whereas the North has the lowest. This helps identify regions where lending policies or applicant quality differ, enabling targeted risk management and marketing strategies. For example, stricter pre-screening or more selective lending in the North may explain the lower approval rate.
+
+---
+
+## Column Chart — Average Loan Amount by Region
+
+**Data Shown:**
+
+- South: 333,321 AUD  
+- North: 330,528 AUD  
+- Central: 323,097 AUD  
+- North-East: 309,059 AUD  
+
+**Outcome & Insights:**  
+This chart highlights regional variations in the average loan amount. The South and North regions have higher average loan sizes, suggesting higher borrower financial capacity or demand for larger loans. This insight can guide regional lending strategies, risk assessment, and product offerings.
+
+---
+
+## Matrix / Table — Loan Type by Purpose
+
+**Data Shown:**
+
+- **Standard Purchase Loan (Type 1):**  
+  - New Vehicle: 26,398  
+  - Used Vehicle (Up to 5 yrs): 2,827  
+  - Used Vehicle (Older/High Mileage): 41,304  
+  - Recreational/Specialty: 42,644  
+
+- **Refinance Loan (Type 2):**  
+  - New Vehicle: 5,707  
+  - Used Vehicle (Up to 5 yrs): 438  
+  - Used Vehicle (Older/High Mileage): 8,549  
+  - Recreational/Specialty: 6,068  
+
+- **Lease Buyout / Balloon (Type 3):**  
+  - New Vehicle: 2,558  
+  - Used Vehicle (Up to 5 yrs): 9  
+  - Used Vehicle (Older/High Mileage): 6,081  
+  - Recreational/Specialty: 6,087  
+
+**Outcome & Insights:**  
+The matrix shows loan demand by type and purpose. Standard purchase loans dominate the portfolio, with significant activity in new and older used vehicles. Refinance and lease buyout loans contribute smaller but relevant portions. This distribution provides insight into product popularity, helps identify high-demand areas, and supports decision-making for marketing, risk evaluation, and product development.
+
+---
+
+## Overall Outcome
+
+The combination of KPI cards, line and column charts, and the loan type matrix provides a clear snapshot of the portfolio’s scale, performance, regional patterns, and product mix. This foundational view guides deeper analysis in subsequent pages, such as risk assessment and borrower segmentation.
