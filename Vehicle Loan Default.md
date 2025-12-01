@@ -301,7 +301,7 @@ This page examines the key risk factors that influence loan approval decisions. 
 
 <img width="1106" height="620" alt="image" src="https://github.com/user-attachments/assets/745dd707-11c1-4703-8c86-fb56e493667d" />
 
-## Approval Rate by Credit Score Band**
+## Approval Rate by Credit Score Band
 
 ### **Data Shown**
 - **Excellent:** 24.93%  
@@ -318,7 +318,7 @@ This page examines the key risk factors that influence loan approval decisions. 
 
 ---
 
-## Total Denied Loans by LTV and DTI Range**
+## Total Denied Loans by LTV and DTI Range
 
 ### **Data Shown**
 Denials across LTV ranges:
@@ -335,12 +335,12 @@ Denials across LTV ranges:
 
 ---
 
-## Scatter Plot — Loan Amount vs Interest Rate (Colored by Status)**
+## Loan Amount vs Interest Rate (Colored by Status)
 
 ### **Data Shown**
 - **X-axis:** Loan Amount  
 - **Y-axis:** Interest Rate  
-- **Color:** Approval Status (Approved / Denied)
+- **Color:** Approval Status 1 (Approved) and 0 (Denied)
 
 ### **Outcome & Insights**
 - Approvals cluster around **moderate loan amounts (under $1M)** and **interest rates between 4%–5%**.  
@@ -351,7 +351,7 @@ Denials across LTV ranges:
 
 ---
 
-## Scatter Plot — LTV vs DTI (Colored by Status)**
+## LTV vs DTI (Colored by Status)
 
 ### **Data Shown**
 - **X-axis:** LTV  
